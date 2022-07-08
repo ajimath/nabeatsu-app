@@ -26,11 +26,11 @@ const Home: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className="flex justify-center m-0">
-      <p>{nabeatsu}</p>       
-      <h1>{count}</h1>
+      <main className="flex flex-col justify-center items-center m-0 min-h-screen">
+       <p>{nabeatsu}</p>       
+       <h1>{count}</h1>
        <button onClick={countUp}>Count Up!</button>
-       </main>
+      </main>
     </div>
   );
 };
